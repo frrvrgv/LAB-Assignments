@@ -1,0 +1,14 @@
+show databases;
+create table demo1(id int, name varchar(15));
+select database();
+create database sowmithadb;
+use sowmithadb;
+create table demo1(id int, name varchar(15));
+show tables;
+insert into demo1 values( 101, 'sowmitha' );
+insert into demo1 values( 102, 'reshmitha' );
+select * from demo1;
+desc demo1;
+use information_schema;
+show tables;
+desc innodb_tables;
